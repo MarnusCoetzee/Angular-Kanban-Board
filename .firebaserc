@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "udemy-course-11804": {
+      "hosting": {
+        "fire-kanban": [
+          "udemy-course-11804"
+        ]
+      }
+    }
+  }
+}

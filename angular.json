@@ -28,6 +28,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -91,6 +92,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -120,9 +122,16 @@
               "devServerTarget": "fire-kanban:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     }
   },
-  "defaultProject": "fire-kanban"
+  "defaultProject": "fire-kanban",
+  "cli": {
+    "analytics": "df20c64e-e635-445b-a9d8-a062a5ea2716"
+  }
 }
